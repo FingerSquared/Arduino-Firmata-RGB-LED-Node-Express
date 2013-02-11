@@ -1,5 +1,30 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	div#content
+		div.row
+			div.twelve.columns
+				br
+				br
+				br
+				div.row
+					div.three.columns
+						div.panel
+							a#motor.button.success.centered.large Motor
+					div.three.columns
+						div.panel
+							a.button.success.centered.large off
+					div.three.columns
+						div.panel
+							a.button.success.centered.large Button
+					div.three.columns
+						div.panel
+							a.button.success.centered.large Button
+		
+
+		script(type='text/javascript')
+			if(Modernizr.mq('only screen and (max-width: 1200px)')){
+				Modernizr.load('/javascript/mobile.js');
+			} else {
+				Modernizr.load('/javascript/desktop.js')
+			}
