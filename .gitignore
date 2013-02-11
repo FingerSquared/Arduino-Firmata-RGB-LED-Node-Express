@@ -12,3 +12,17 @@ logs
 results
 
 npm-debug.log
+express/public/foundation/images/foundation/orbit/bullets.jpg
+express/public/foundation/images/foundation/orbit/left-arrow-small.png
+express/public/foundation/images/foundation/orbit/left-arrow.png
+express/public/foundation/images/foundation/orbit/loading.gif
+express/public/foundation/images/foundation/orbit/mask-black.png
+express/public/foundation/images/foundation/orbit/pause-black.png
+express/public/foundation/images/foundation/orbit/right-arrow-small.png
+express/public/foundation/images/foundation/orbit/right-arrow.png
+express/public/foundation/images/foundation/orbit/rotator-black.png
+express/public/foundation/images/foundation/orbit/timer-black.png
+express/public/foundation/index.html
+express/public/foundation/robots.txt
+express/public/foundation/stylesheets/app.css
+express/public/foundation/stylesheets/foundation.min.css
